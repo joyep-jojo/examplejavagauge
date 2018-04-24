@@ -68,7 +68,8 @@ public class WebUtils implements ICustomScreenshotGrabber{
     }
     public void saveScreenshot() {
     	byte[] encoded = Base64.encodeBase64(takeScreenshot());
-    	Gauge.writeMessage("<img src='data:image/png;base64," + new String(encoded) + "'/>");    }
+    	Gauge.writeMessage("<img src='data:image/png;base64," + new String(encoded) + "'>");
+    }
     
 	@Override
 	public byte[] takeScreenshot() {
