@@ -13,7 +13,7 @@ install:
   - brew install gauge
   - gauge install java
   - gauge install html-report
-
+  - gauge install screenshot
 cache:
   directories:
   - $HOME/.m2
