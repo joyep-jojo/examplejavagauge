@@ -25,5 +25,5 @@ script:
 deploy:
   provider: surge
   project: ./reports/html-report/
-  domain: gauge-custom-java-maven-selenium.surge.sh
+  domain: innocent-trip.surge.sh
   skip_cleanup: true
