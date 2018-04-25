@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Lemadd/examplejavagauge.svg?branch=master)](https://travis-ci.org/Lemadd/examplejavagauge)
+
 # Gauge example in Java using Maven
 
 This is an example project for doing web automation testing with [Gauge](http://getgauge.io). 
