@@ -26,4 +26,4 @@ deploy:
   provider: surge
   project: ./reports/html-report/
   domain: innocent-trip.surge.sh
-  skip_cleanup: true
+  skip_cleanup: false
