@@ -6,9 +6,10 @@ language: java
 before_install:
   - brew update
   - npm install --global surge
-
+  - wget https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+  - hdiutil attach googlechrome.dmg
+  - cp -R "/Volumes/Google Chrome/Google Chrome.app" /Applications
 install:
-  - brew cask install google-chrome
   - brew cask install chromedriver
   - brew install gauge
   - gauge install java
